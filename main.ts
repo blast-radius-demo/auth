@@ -10,7 +10,7 @@ app.get("/user/:id", (req, res) => {
     const userId = Number(req.params.id);
 
     res.json({
-        userId,
+        accountId: userId,
         username: "demo"
     });
 });
