@@ -15,5 +15,4 @@ app.get("/user/:id", (req, res) => {
     });
 });
 
-
 app.listen(PORT, () => console.log(`auth listening on ${PORT}`));
